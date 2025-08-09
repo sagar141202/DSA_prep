@@ -31,7 +31,7 @@ void merge(vector<int> &arr, int start, int mid, int end)
         j++;
     }
 
-    for(int k = 0; i < temp.size(); k++)
+    for(int k = 0; k < temp.size(); k++)
     {
         arr[start + k] = temp[k];
     }
