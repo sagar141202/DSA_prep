@@ -12,7 +12,7 @@ public:
                 candidate = num;
             }
 
-            if(num == candiddate)
+            if(num == candidate)
             {
                 count++;
             }
